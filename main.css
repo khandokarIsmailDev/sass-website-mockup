@@ -1,0 +1,119 @@
+
+/* top header section common color  */
+
+section#topHeader{
+    border-bottom: 1px solid #a5b7d269;
+}
+
+.same-color{
+    color: #A5B7D2;
+}
+
+.same-bg-color{
+    background-color:#F0F6FF;
+}
+
+section#topHeader a{
+    text-decoration: none;
+    color:#A5B7D2;
+    font-family: 'Red Hat Display', sans-serif;
+    transition: .5s;
+}
+.top-image-search-shadow {
+    box-shadow: 3px 3px 7px 0px #03a2ec8a;
+}
+
+section#topHeader a:hover{
+    color:#fe4c1c;
+    transform: .5s;
+}
+
+.top-left-span{
+    border-right: 1px solid;
+}
+
+#topRight a i{
+ color: #00C3FF;
+}
+
+
+/* navbar  */
+.nav-link-hover li a{
+    transition: 0.5s;
+}
+.nav-link-hover li:hover a{
+ color: red !important;
+ transform: scale(1.12);
+}
+
+
+.side-border{
+    border-right: 2px solid #A5B7D2;
+}
+
+.bg-middle-image{
+    background-image: url('./images/bg-sabout-home2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-family: 'Red Hat Display', sans-serif;
+}
+
+
+.heading-header-style {
+
+}
+
+.heading-header-p-color {
+    color: #0000006e;
+}
+
+.header-custorm-btn {
+    color: white;
+    background: #FE4C1C;
+    padding: 10px 26px;
+    font-size: 21px;
+    box-shadow: 3px 4px 9px -1px #fe4c1c70;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.max-width-94{
+    max-width: 94% !important;
+}
+.spacener{
+    height: 12rem;
+}
+
+.header-custorm-btn-two {
+    width: 50px;
+    height: 50px;
+    background: #03A2EC;
+    color: white;
+    border-radius: 50%;
+    font-size: 21px;
+    box-shadow: 3px 4px 9px -1px #03a2ec85;
+}
+
+.header-custorm-text {
+    color: #03A3ED;
+    text-shadow: 0px 1px 1px #03a3ed94;
+}
+
+.worked-logo img{
+    opacity: .7;
+    filter: grayscale(100%);
+    transition: .5s;
+}
+
+.worked-logo img:hover{
+    opacity: 1;
+    filter: grayscale(0%);
+}
+
+
+/* real number section  */
+
+.real-number i {
+    font-size: 10px;
+    margin-top: 5px;
+}
